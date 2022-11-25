@@ -1,0 +1,190 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+img{
+    float:left;
+}
+.overlay {
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+p{
+  font-family: "Montserrat";
+  color: rgba(255,255,255,.8);
+  font-size: 18px;
+}
+h1 {
+  font-family: "Montserrat";
+  color: white;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 60px;
+}
+.arrow{
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px solid;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  color: #fff;
+}
+.header {
+    width:100%;
+    height: 100%;
+    max-height: 1024px;
+    background: #000;
+    overflow: hidden;
+    position: relative;
+}
+.video-wrapp  {
+    position:absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    
+}
+.video-box {
+   position: absolute;
+   top:0;
+   left: 50%;
+   height: 100%;
+}
+.video {
+    display: inline-block;
+    height: 100%;
+    transform: translateX(-50%);
+    min-height: 768px;
+}
+nav {
+  margin: 0 auto ;
+  margin-top:10px;
+}
+ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+.main li {
+  display: inline-block;
+  position: relative;
+}
+.main li:hover a{
+    border-bottom: 3px solid transparent;
+    border-color: #f04d35;
+}
+.sub li:hover{
+    padding:0;
+    background: #d13018;
+}
+.sub li:hover a{
+    border: none;
+}
+.sub li, .sub li a{  
+    display:block;
+}
+a {
+  color: white;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  outline: none;
+  font-family: "Montserrat";
+  font-size: 12px;
+}
+#imgHeader{
+  float:left;
+  margin:10px;
+  margin-right:50px;
+}
+.sub {
+  position: absolute;
+  margin-right: auto;
+  list-style: none;
+  visibility: hidden;
+  background: #f04d35;
+}
+ul li:hover .sub {
+    visibility: visible;
+}
+.block-main-btn {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #fff;
+  text-decoration: none;
+  padding: 22px 20px;
+  width: 220px;
+  max-width: 100%;
+  text-align: center;
+  border: 2px solid #f14d34;
+  border-radius: 5px;
+  transition: background 300ms;
+}
+a:hover {
+  background: #f04d35;
+  color:#fff;
+}
+
+.support-achievement-wrapper, .support-achievement-wrapper1 {
+  border-left: 3px solid #f14d34;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  min-height: 80px;
+  height: 100%;
+  font-family: "Montserrat";
+}
+.support-achievement-wrapper1{
+  margin-bottom:30px;
+}
+.support-achievement-description {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.25;
+  color: rgba(255,255,255,.7);
+}
+.support-achievement:first-of-type .support-achievement-title {
+  font-size: 48px;
+}
+.support-achievement-title {
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 5px;
+  position: relative;
+}
+.support-achievement-title2 {
+  font-size: 48px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+.main_row-flex{
+  flex-wrap:wrap;
+  align-items: center;
+}
+@font-face{
+    font-family: "Montserrat";
+    src:url(ofont.ru_Montserrat.ttf) format("truetype");
+    font-style: normal;
+    font-weight:normal;
+}
